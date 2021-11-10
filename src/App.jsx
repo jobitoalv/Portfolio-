@@ -5,8 +5,10 @@ import Works from './components/works/Works'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import './app.scss'
+import { useState } from "react";
 
 function App() {
+  const [meunOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
       <Topbar/>
