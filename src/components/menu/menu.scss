@@ -25,14 +25,21 @@
         font-size: 30px;
         font-weight: 200;
         color: white;
+        width: 60;
 
         li{
-            margin-bottom: 2px;
+            margin-bottom: 25px;
             a{
                 font-size: inherit;
                 color: inherit;
                 text-decoration: none;
             }
+
+            &:hover {
+                font-weight: 500;
+            }
+
+
         }
     }
 }
