@@ -1,3 +1,23 @@
+@import "../../global.scss";
+
 .contact{
-    background-color: lightblue;
+   background-color: white;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;  
+
+    h1{
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    } 
+
+}
+
+label{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
